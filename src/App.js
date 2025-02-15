@@ -47,7 +47,7 @@ function App() {
       
         try {
           
-          const response = await axios.get('https://scapper-backend.vercel.app/scrape', {
+          const response = await axios.get('https://scapper-backend-9ull.onrender.com/scrape', {
             params: {
               url:`https://${val}`
             }
